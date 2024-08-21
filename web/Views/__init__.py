@@ -1,1 +1,0 @@
-from .IndexPerson import Person

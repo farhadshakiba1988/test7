@@ -1,5 +1,7 @@
 from django.contrib import admin
 
-from web.Models import Person
+from web.Models import Services
+from web.Models.portfolio import Portfolio
 
-admin.site.register(Person)
+admin.site.register(Services)
+admin.site.register(Portfolio)
